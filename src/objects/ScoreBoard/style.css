@@ -1,3 +1,5 @@
 .score-board{
-    background-color: rgb(51, 93, 9);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5rem 0;
 }

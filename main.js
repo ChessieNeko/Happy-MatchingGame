@@ -3,9 +3,9 @@ import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
 import "./src/styles/elements/base.css";
 
-import CardGame from "./src/components/CardGame";
 import BoardGame from "./src/objects/BoardGame";
 import ScoreBoard from "./src/objects/ScoreBoard";
+import CardFrontBack from "./src/components/CardFrontBack";
 
 const $root = document.querySelector("#root");
 
