@@ -1,8 +1,8 @@
 import "./style.css"
 
 function PlayerName(namePlayer){
-    return `
-        <h1>${namePlayer}</h1>
+    return /*html*/`
+        <h1 class="player-name">${namePlayer}</h1>
     `;
 }
 

@@ -1,7 +1,7 @@
 //import "./style.css"
 
 function PlayerScore(){
-    return `
+    return /*html*/`
         
     `
 }
