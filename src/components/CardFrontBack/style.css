@@ -9,7 +9,7 @@
     position: relative;
     transform-style: preserve-3d;
 
-    transition: transform 400ms ease-in-out;
+    transition: transform 500ms cubic-bezier(0.42,0,0.54, 1.68);
 }
 
 .card-front-back.-active{
@@ -22,5 +22,9 @@
 }
 
 .card-front-back > .card.-back{
-    transform: rotateY(180deg);    
+    transform: rotateY(180deg);  
+}
+
+.card-front-back > .card.-back .card-game{
+    background-color: var(--color-cardeal);    
 }
