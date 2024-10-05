@@ -16,7 +16,6 @@ $root.insertAdjacentHTML("beforeend",
 );    
 
 const arrow = $root.querySelector("#icon-arrow");
-console.log(arrow);
 
 arrow.addEventListener("click", aiclica=>{
     console.log("clickei");
