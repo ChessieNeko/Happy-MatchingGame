@@ -1,9 +1,8 @@
 #icon-arrow{
     position: absolute;
     top: -1rem;
-    /*left: 94px;*/
-    left: 33.5%;
 
+    transform: translateX(-2.375rem);
     transition: transform .4s cubic-bezier(0.42,0,0.54, 1.5);
 }
 
@@ -12,6 +11,10 @@
     height: auto;
 }
 
+#icon-arrow[data-currentPlayer="2"]{
+    transform: translateX(2.375rem);
+}
+
 #icon-arrow.-move{
-    transform: translateX(4.6rem);
+    transform: translateX(2.375rem);
 }
