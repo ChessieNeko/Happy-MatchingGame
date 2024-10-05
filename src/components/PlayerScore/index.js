@@ -1,11 +1,11 @@
 import "./style.css"
 
-function PlayerScore(){
+function PlayerScore(points = 0){
     return /*html*/`
-    <ul class="player-score">
-        <li class="score-point"></li>
-        <li class="score-point"></li>
-        <li class="score-point"></li>
+    <ul class="player-score" data-points="${points}">
+        <li class="pointer"></li>
+        <li class="pointer"></li>
+        <li class="pointer"></li>
     </ul>
     `
 }

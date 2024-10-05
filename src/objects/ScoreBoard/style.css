@@ -8,12 +8,14 @@
     position: relative;
 }
 
-.score-board p{
-    color: var(--color-yellow);
-    font-size: 0.57rem;
-}
-
 /*é um dos filhos de score-board*/
 .player-info:last-child {
     direction: rtl;
+}
+
+.player-info:last-child > .player-score:last-child {
+    flex-direction: row-reverse;
+}
+.player-info:last-child > .player-score:last-child[data-points = "2"]{
+    flex-direction: row;
 }

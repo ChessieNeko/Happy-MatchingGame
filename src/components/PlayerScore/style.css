@@ -1,16 +1,35 @@
 .player-score{/*é uma ul*/
     display: flex;
+    gap: 1.5px;
+    
+    height: 20px;
+    width: 50px;
+    padding: 1px;
+
     border: 2px solid var(--color-pink);
-    background-color: aqua;
+    background-color: var(--color-floralwhite);
 }
 
-.score-point{/*é uma li*/
-    height: 14px;
-    width: 14px;
-    border: 1px solid var(--color-floralwhite);
+.pointer{/*é uma li*/
+    width: 33.3%;
     
     background-color: var(--color-silver);
 }
-.score-point.-point{
+.pointer.-point{
+    background-color: var(--color-yellowgreen);
+}
+
+/*É tipo um if else do css*/
+.player-score[data-points = "1"] > .pointer:first-child{
+    background-color: var(--color-yellowgreen);
+}
+
+.player-score[data-points = "2"]{
+    flex-direction: row-reverse;
+}
+.player-score[data-points = "2"] > .pointer:nth-child(n+2){
+    background-color: var(--color-yellowgreen);
+}
+.player-score[data-points = "3"] > .pointer{
     background-color: var(--color-yellowgreen);
 }
