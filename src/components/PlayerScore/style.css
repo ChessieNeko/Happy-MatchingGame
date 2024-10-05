@@ -1,0 +1,16 @@
+.player-score{/*é uma ul*/
+    display: flex;
+    border: 2px solid var(--color-pink);
+    background-color: aqua;
+}
+
+.score-point{/*é uma li*/
+    height: 14px;
+    width: 14px;
+    border: 1px solid var(--color-floralwhite);
+    
+    background-color: var(--color-silver);
+}
+.score-point.-point{
+    background-color: var(--color-yellowgreen);
+}

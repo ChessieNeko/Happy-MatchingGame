@@ -15,3 +15,11 @@ $root.insertAdjacentHTML("beforeend",
     ${BoardGame(6)}
     `
 );    
+
+const arrow = $root.querySelector("#icon-arrow");
+console.log(arrow);
+
+arrow.addEventListener("click", aiclica=>{
+    console.log("clickei");
+    arrow.classList.toggle("-move");
+});

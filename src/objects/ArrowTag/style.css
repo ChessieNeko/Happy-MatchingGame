@@ -1,0 +1,17 @@
+#icon-arrow{
+    position: absolute;
+    top: -1rem;
+    /*left: 94px;*/
+    left: 33.5%;
+
+    transition: transform .4s cubic-bezier(0.42,0,0.54, 1.5);
+}
+
+#icon-arrow img{
+    width: 20px;
+    height: auto;
+}
+
+#icon-arrow.-move{
+    transform: translateX(4.6rem);
+}

@@ -1,15 +1,15 @@
 import "./style.css"
-import PlayerName from "../../components/PlayerName";
-import PlayerScore from "../../components/PlayerScore";
+import PlayerInfo from "../../components/PlayerInfo";
+import ArrowTag from "../../objects/ArrowTag";
 
 function ScoreBoard(){
 
     return /*html*/`
         <header class="score-board">
-            ${PlayerName("Player 1")}
-            ${PlayerScore()}
-            ${PlayerScore()}
-            ${PlayerName("Player 2")}
+            ${ArrowTag()}
+            ${PlayerInfo("Player 1")}
+            <p>vs</p>
+            ${PlayerInfo("Player 2")}
         </header>
     `;
 }

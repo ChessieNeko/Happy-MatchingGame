@@ -2,11 +2,11 @@ import "./style.css"
 
 function PlayerScore(){
     return /*html*/`
-    <div>
-        <span>.</span>
-        <span>.</span>
-        <span>.</span>
-    </div>
+    <ul class="player-score">
+        <li class="score-point"></li>
+        <li class="score-point"></li>
+        <li class="score-point"></li>
+    </ul>
     `
 }
 
